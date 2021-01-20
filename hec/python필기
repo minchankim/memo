@@ -1,0 +1,20 @@
+Mac
+
+뒤로가기 ▶ cd \
+가상화 만들기 ▶ python -m venv python_basic
+파일보기 ▶ dir
+가상화 폴더 가기 ▶ cd scripts 맥은 cd bin
+▶activate(윈도우) sorce ./activate(맥)
+▶deactivate.bat(윈도우)
+▶pip search simple json
+▶pip show list
+▶pip list
+▶pip uninstall simple json
+▶pip install --upgrade simplejson
+▶pip search simple*
+▶pip show simplejson
+▶install, show, search , uninstall, list
+▶
+▶
+
+activate

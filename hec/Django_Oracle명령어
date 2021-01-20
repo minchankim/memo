@@ -1,0 +1,22 @@
+def get_oracle(database_name, host='http://10.10.145.156:1521', port=1521):
+    print("1")
+    connection = cx_Oracle.connect('hrm/Or%7_Q44$@http://10.10.145.156:1521/HRMOP')
+    print("2")
+    cursor = connection.cursor()
+    cursor.execute("""
+    select name
+    from test_db
+    where text = :texting""",
+    texting = "테스트"
+    )
+    #for name in cursor:
+    #print("테스트 이름 리스트 : ", name)
+    return HttpResponseRedirect("/list/")
+
+20191024143319
+
+import cx_Oracle
+import os
+os.putenv('NLS_LANG', '.UTF8')
+
+TMP_ENTER_HIS', 'EDATETIME', 'VARCHAR2

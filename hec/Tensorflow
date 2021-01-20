@@ -1,0 +1,50 @@
+그룹공유-자신이 소속된 그룹 보인다 조직도 상에 상위 조직 하위 부서  같이 
+
+모코엠시스한테 받음 체크 리스트
+
+rpa모의해킹 완료
+인프라점검 
+
+pip install tensorflow
+
+1) CPU를 사용하는 TensorFlow 설치
+pip install --upgrade tensorflow
+pip install --upgrade tensorflow-cpu
+
+2) GPU를 사용하는 TensorFlow 설치
+pip install --upgrade tensorflow-gpu
+
+3) 설치된 버전의 확인
+python 
+import tensorflow
+tensorflow.__version__
+
+
+파이썬 텐서플로 The Session graph is empty. Add operations to the graph before calling run() 문제 해결 방법
+https://blog.naver.com/websearch/221763834918
+
+
+AttributeError: '_thread._local' object has no attribute 'value' 뜰시
+pip install keras==2.3.0
+
+python manage.py runserver 10.177.30.123:80 --nothreading --noreload
+ 
+
+  for (var i = 0; i < charts.length; i++) {
+    var custombutton = charts[i].renderer.button('button', 450, 10, function() {
+      // not working
+      alert($(this).closest(".hc").attr("id"));
+    }, null, hoverState, pressedState).add();
+  }
+});
+
+
+
+var custombutton = charts[i].renderer.button('button', 450, 10, function() {
+  // not working
+  alert(this.element.id);
+}, null, hoverState, pressedState).attr({
+  id: 'button-' + i
+}).add();
+
+서울특별시 중구 마른내로 106

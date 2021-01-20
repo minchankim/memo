@@ -1,0 +1,38 @@
+pip install django_plotly_dash
+pip install psycopg2
+pip install psycopg2-binary
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py collectstatic
+python manage.py collectstatic
+
+pip install channels daphne redis django-redis channels-redis
+
+python manage.py createsuperuser
+
+
+        entries = ValueTest.graph_objects;
+        data = entries.ValueTest('axis_x','axis_y');
+
+        'x1' : [i['axis_x'] for i in data],
+        'y1' : [i['axis_y'] for i in data]
+
+class ValueTest(models.Model):
+	axis_x = models.IntegerField(null=True, blank=True)
+	axis_y = models.IntegerField(null=True, blank=True)
+
+from .models import ValueTest
+
+from home.models import ValueTest 
+
+
+admin.site.register(ValueTest)
+
+def home(request):
+    def scatter():
+        entries = ValueTest.objects.get(pk=1);
+        print(entries)
+        print(entries.axis_x)
+        x1 = [1,2,3,4]
+        y1 = [entries.axis_x, 35, 25, 45]

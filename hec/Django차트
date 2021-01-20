@@ -1,0 +1,14 @@
+DB exchane
+mesearments file
+field time, amt_1
+
+DB HRM
+mesearments metric_kpi_01
+tag pspid aauz1501
+field br_rate(환율),net_cont_krw(공급가액_원화)
+
+DB sales
+mesearments file(매출&이익현황-11년 4분기~19년 3분기)
+field time, grossprofit(매출총이익), netincome(당기순이익), costofsales(매출원가), operatingprofit(영업이익), sales(매출), selladminexpense(판관비)
+
+
