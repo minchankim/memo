@@ -13,3 +13,5 @@
 4. WEB/WAS, DB 모두 HMG 클라우드로 이관
   - 이슈 : DAC 이관 비용 발생할 수 있어 추가 확인 필요
 
+1) SECUVIEW-A01 (운영WAS, IP:10.10.144.71)
+2) SECUVIEW-A02 (운영WAS, IP:10.10.144.72)
