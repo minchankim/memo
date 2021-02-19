@@ -15,3 +15,25 @@
 
 1) SECUVIEW-A01 (운영WAS, IP:10.10.144.71)
 2) SECUVIEW-A02 (운영WAS, IP:10.10.144.72)
+
+
+  NETS	HIM-WEB-A1	10.10.144.141	Win Svr 2016 std	WAS/WEB	운영					
+	HIM-WEB-A2	10.10.144.142	Win Svr 2016 std	WAS/WEB	운영					
+	HIM-PX-A1	101.1.33.189	Win Svr 2016 std	WAS/WEB	운영	hecsys	HecApr!04		프록시 서버	
+	HIM-DB-A1	10.10.144.144	Win Svr 2016 std	DB	운영	hecifuser(DB)	Nifim$$user		ex_if_eai_sap_project	
+	HIM-DB-S1	10.10.144.145	Win Svr 2016 std	DB	운영	hecifuser(DB)	Nifim$$user		ex_if_eai_sap_project	
+
+	HIM-Q1	10.10.144.146	Win Svr 2016 std	WAS/WEB/DB	품질	hecifuser(DB)	Nifim$$user Danawa!@		ex_if_eai_sap_project	
+	
+  HIM-D1	10.176.224.146	Win Svr 2016 std	WAS/WEB/DB	개발	imadmin ssoadmin	Hecim!@3adm sso!hec1@# du*Er3i9z		https://imssodev.hec.co.kr/im https://imssodev.hec.co.kr/nsso-adminweb	
+
+
+HDD는 
+C 48GB/60GB/잔여 12GB
+D 13GB/40GB /잔여 12GB 입니다.
+
+
+
+HECCYBRDBA01 사이버감사실 8vCPU_RAM16GB_Disk100GB Windows-2016 10.6.104.53  ACTIVE HMG-WINDOWS ‎2021‎년 ‎2‎월 ‎18‎일 ‎목‎ ‎오후‎ ‎04‎:‎43 
+HECCYBRAPPA01 사이버감사실 4vCPU_RAM8GB_Disk100GB Windows-2016 10.6.47.28  ACTIVE HMG-WINDOWS ‎2021‎년 ‎2‎월 ‎18‎일 ‎목‎ ‎오후‎ ‎04‎:‎43 
+HECCYBRCOND01 사이버감사실 4vCPU_RAM8GB_Disk100GB Windows-2016 10.6.128.31  ACTIVE HMG-WINDOWS ‎2021‎년 ‎2‎월 ‎18‎일 ‎목‎ ‎오후‎ ‎04‎:‎42 
