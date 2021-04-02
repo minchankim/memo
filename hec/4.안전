@@ -19,4 +19,19 @@ https://smartstore.naver.com/hyconcard_iot/products/4782739023?n_media=11068&n_q
 https://webnautes.tistory.com/899
 
 
-dfs
+구글에 비콘 영상이로 침
+안전이용
+https://patents.google.com/patent/WO2016099084A1/ko
+
+
+집에서 공유기 붙이셔서 MAC 찾은 다음에 DHCP 고정 하셔야 하는데... 가져오시면 제가 모니터 연결해서 봐드릴께요.
+
+  라즈베리파이 연결하기 위해서는
+1. 제광준이랑 먼저 협의
+2. MAC 기준으로 DHCP 고정
+3. NAC 예외신청
+4. 방화벽 차단 신청
+이렇게 하셔야 하구요. 필요 s/w는 전부 집에서 설치해 오셔야 해요.. 중간에 이것저것 설치할께 많은데 회사에서는 막혀서...
+
+기본패스워드(pi) - raspberry
+마스터패스워드(pi) - 1234567
