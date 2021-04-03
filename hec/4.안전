@@ -38,3 +38,74 @@ https://patents.google.com/patent/WO2016099084A1/ko
 
 집 라즈베리파이 주소
 192.168.0.19  dc:a6:32:90:84:88  202.136.145.216
+
+[VNC 사용법]
+-VNC   허용
+https://webnautes.tistory.com/899
+-vnc 뷰어 다운
+https://www.realvnc.com/en/connect/download/viewer/
+
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install tightvncserver
+
+[비콘설정]
+Major : 58003
+Minot : 10003
+
+[비콘 설명]
+https://m.blog.naver.com/alsrb968/221029831803
+
+[SD카드 백업]
+https://withcoding.com/99
+
+
+[비콘개발]https://m.blog.naver.com/alsrb968/221039309861
+(설치)
+$ sudo apt-get -y install libusb-dev 
+$ sudo apt-get -y install libdbus-1-dev 
+$ sudo apt-get -y install libglib2.0-dev 
+$ sudo apt-get -y install libudev-dev 
+$ sudo apt-get -y install libical-dev 
+$ sudo apt-get -y install libreadline-dev 
+$ sudo apt-get -y install libdbus-glib-1-dev
+
+※could not get lock  메세지 나오면 
+  - sudo rm /var/cache/apt/archives/lock
+
+[폴더 만들고 blueZ 설치]
+$ sudo mkdir bluez 
+$ cd bluez 
+$ sudo wget www.kernel.org/pub/linux/bluetooth/bluez-5.19.tar.gz 
+>ls 명령어로 tar.gz 파일 있는지 확인
+>압축풀기
+$ sudo gunzip bluez-5.19.tar.gz
+$ sudo tar xvf bluez-5.19.tar
+$ cd bluez-5.19
+$ ls
+
+$ sudo ./configure --disable-systemd
+$ sudo make 
+$ sudo make install 
+$ sudo apt-get install python-bluez 
+$ sudo shutdown -r now
+
+[python  설치]
+sudo apt-get install python3-dev
+
+sudo apt-get install -y python-dev python-setuptools
+git clone https://github.com/Gadgetoid/WiringPi2-Python.git
+cd WiringPi2-Python
+$ sudo python setup.py install
+
+[소스내려받고 실행]
+git clone https://github.com/switchdoclabs/iBeacon-Scanner-
+cd iBeacon-Scanner-
+sudo python testblescan.py
+
+[vim설치 ]
+sudo apt install vim
+esc누르고 qw
+
+
+[자주쓰는 명령어]
+목록 : ls
