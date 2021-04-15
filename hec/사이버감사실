@@ -37,3 +37,26 @@ D 13GB/40GB /잔여 12GB 입니다.
 HECCYBRDBA01 사이버감사실 8vCPU_RAM16GB_Disk100GB Windows-2016 10.6.104.53  ACTIVE HMG-WINDOWS ‎2021‎년 ‎2‎월 ‎18‎일 ‎목‎ ‎오후‎ ‎04‎:‎43 
 HECCYBRAPPA01 사이버감사실 4vCPU_RAM8GB_Disk100GB Windows-2016 10.6.47.28  ACTIVE HMG-WINDOWS ‎2021‎년 ‎2‎월 ‎18‎일 ‎목‎ ‎오후‎ ‎04‎:‎43 
 HECCYBRCOND01 사이버감사실 4vCPU_RAM8GB_Disk100GB Windows-2016 10.6.128.31  ACTIVE HMG-WINDOWS ‎2021‎년 ‎2‎월 ‎18‎일 ‎목‎ ‎오후‎ ‎04‎:‎42 
+
+
+1. 인프라취약점 점검 조치
+ 조치 완료
+2. DNS 변경 
+2.1 외부/내부 DNS 변경
+ 김민찬 매니저 통해 메일 또는 메신저로 DNS 변경 요청(전자결재 완료)
+ 외부 : 이상선 과장 / 내부 : 임상혁 책임 요청
+  
+2.2 WEBTOB 내 DNS 적용 및 인증서 적용 
+  TMAX 지원 요청
+  1544-8629 (티맥스기술지원센터) > 1 (Middleware)
+  * WEBTOB 내 DNS 적용 : \99.CYBER 감사실 이관작업\티맥스 작업 잔여사항(DNS)
+  * 인증서 적용 : D:\20200612-ssl 인증서 교체
+  * JEUS/WEBTOB 라이센스 교체
+   
+2.3 WAF 적용(양우열 책임)
+  -첨부 메일 참조하여 신청
+  
+3. SSO 연결 변경 
+ 윤영준 책임 요청
+ 운영서버IP: 10.6.47.28
+ 도매인: audit.hec.co.kr
