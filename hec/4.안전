@@ -150,3 +150,26 @@ https://blog.truthlabs.com/beacon-tracking-with-node-js-and-raspberry-pi-794afa8
  - 각 거리마다 평균적으로 나오는 값에 대하여 데이터를 뽑아볼것
  - 비콘 중장거리에 대하여 통계적으로 거리 측정이 어떤것이 좋을 지 확인해 볼것
   (상위10, 하위20은 제외하고 하는것으로)
+
+
+[장고설치]
+https://popcorn16.tistory.com/193
+- sudo apt-get update
+
+- pip3 install django
+sudo -H pip install pipenv --proxy="proxy.google.io:3128"
+sudo -H pip install pipenv --proxy="proxy.google.io:3128"
+
+
+
+[retrying error발생시]
+- sudo nano /etc/resolve.conf
+- nmaeserver ??
+-https://nirsa.tistory.com/271
+- yum -y install openssl openssl-devel
+- find / -name Setup
+-./configure
+- make && make install
+- pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org [설치할 패키지명]
+pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org
+pip install --upgrade pip --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
